@@ -3,8 +3,7 @@ from streamlit_option_menu import option_menu
 import pickle
 import os
 
-model_path = r'D:\atma\Semester 5\ML\UTS 1.1'
-model = os.path.join(model_path,'BestModel_CLF_LR_Pandas.pkl')
+model = 'BestModel_CLF_LR_Pandas.pkl'
 
 model2 = 'BestModel_REG_Lasso_Pandas.pkl'
 

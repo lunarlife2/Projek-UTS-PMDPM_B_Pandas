@@ -98,27 +98,27 @@ if selected == 'Regresi':
     hasguestroom = st.slider("Jumlah Guest Room",0,10)
 
 
-if hasyard == "Y":
+if hasyard == "Yes":
     hasyard = 1
 else:
     hasyard = 0
 
-if haspool == "Y":
+if haspool == "Yes":
     haspool = 1
 else:
     haspool = 0
 
-if isnewbuilt == "Y":
+if isnewbuilt == "Yes":
     isnewbuilt = 1
 else:
     isnewbuilt = 0
 
-if hasstormprotector == "Y":
+if hasstormprotector == "Yes":
     hasstormprotector = 1
 else:
     hasstormprotector = 0
 
-if hasstorageroom == "Y":
+if hasstorageroom == "Yes":
     hasstorageroom = 1
 else:
     hasstorageroom = 0
